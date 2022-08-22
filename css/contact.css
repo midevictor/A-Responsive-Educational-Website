@@ -80,7 +80,7 @@ input, textarea{
 
 @media screen and (max-width: 1024px){
   .contact{
-    /* padding-bottom: 0; */
+    padding-bottom: 0;
   }
   .contact-container{
     gap: 1.5rem;

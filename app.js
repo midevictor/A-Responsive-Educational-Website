@@ -1,3 +1,8 @@
+
+window.addEventListener('scroll',() =>{
+  document.querySelector('nav').classList.toggle("window-scrolled", window.scrollY > 0);
+});
+
 const menu = document.querySelector(".nav_menu");
 const menuBtn = document.getElementById("open-menu-btn");
 const closeBtn = document.getElementById("close-menu-btn");
@@ -14,6 +19,3 @@ closeBtn.addEventListener("click", () => {
   menuBtn.style.display = "inline-block";
 } );
 
-window.addEventListener('scroll',() =>{
-  document.querySelector('nav').classList.toggle("window-scrolled", window.scrollY > 0);
-});
